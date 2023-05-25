@@ -1,0 +1,231 @@
+* {
+    background-color:#e8e8f8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    padding-left: px;
+}
+
+.logoAlura {
+margin-left: 100px;
+padding-top: 10px;
+width: 2%;
+background-color: #F3F5FC;
+transition: 0.600s;
+
+}
+
+.logoAlura:hover {
+    color: #C78C19;
+    transition: 0.600s;
+    text-shadow: 3px 3px 3px #000000;
+    transform: scale(1.2);
+    transform: rotate(360deg);
+}
+
+header {
+    background-color: #F3F5FC;
+    padding-bottom: 10px;
+
+}
+    
+h1 {
+    text-align: center;
+  
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    padding-left: 300px;
+    
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+
+}
+::placeholder {color: #0A3871;}
+ .text-area:focus {
+    outline:none;
+ }
+
+
+ .mensagem {
+    background: white;
+    background-image: url(boneco.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    position: fixed;
+    transition: 0.600s;
+}
+
+.mensagem:hover {
+    transition: 0.600s;
+    box-shadow: 6px 6px 6px #000000;
+}
+
+.mensagem:focus {
+    outline: none;
+    background-image: none;
+    transition: 0.600s;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 3px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-size: 21px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    transition: 0.600s;
+    
+ 
+}
+
+.btn-encriptar:hover {
+        color: #C78C19;
+        transition: 0.600s;
+        text-shadow: 3px 3px 3px #000000;
+        transform: scale(1.1);
+        box-shadow: 6px 6px 6px #000000;
+        cursor: pointer;
+}
+
+.btn-desencriptar {
+    background-color: rgb(194, 202, 248);
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-size: 21px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    transition: 0.600s;
+ 
+
+}
+
+.btn-desencriptar:hover {
+    color: #C78C19;
+    transition: 0.600s;
+    text-shadow: 3px 3px 3px #000000;
+    transform: scale(1.1);
+    box-shadow: 6px 6px 6px #000000;
+    cursor: pointer;
+}
+
+#copy {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 191px;
+    margin-top: 700px;
+    position: absolute;
+    width: 150px;
+    background-color: rgb(194, 202, 248);
+    font-size: 18px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    transition: 0.600s;
+}
+
+#copy:hover {
+    cursor: pointer;
+    color: #C78C19;
+    transition: 0.600s;
+    text-shadow: 3px 3px 3px #000000;
+    transform: scale(1.1);
+    box-shadow: 6px 6px 6px #000000;
+}
+
+
+.info {
+    color: rgb(62, 63, 63);
+    font-size: 12px;
+    opacity: 50px;
+}
+
+h6 {
+    font-size: 21px;
+    margin-top: 20px;
+    opacity: 50px;
+ 
+}
+
+.esclamacao {
+ position: absolute;
+ padding-top: 15px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #F3F5FC;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+footer a img {
+    width: 24px;
+    height: 24px;
+    transition: 0.600s;
+
+}
+
+footer a img:hover {
+    color: #C78C19;
+    transition: 0.600s;
+    text-shadow: 3px 3px 3px #000000;
+    transform: scale(1.4);
+}
+
+footer p:hover {
+    color: #000000;
+    transition: 0.600s;
+   
+}
